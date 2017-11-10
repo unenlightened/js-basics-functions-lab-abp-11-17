@@ -24,6 +24,10 @@ function calculatesFarePrice(blockVertStart, blockVertEnd){
     case distance > 400:
       return distance * 0.02;       //first 400 ft are free, but it only passes when you calculate full distance
     default:
+<<<<<<< HEAD
       return 0;
+=======
+      return 0;            
+>>>>>>> 3b7f9e16ee5ae227bee67b8ef1397be4308168bb
   }
 }
